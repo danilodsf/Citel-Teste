@@ -104,12 +104,13 @@ Crie o arquivo na mesma pasta do executável com o seguinte conteúdo:
     password=123456
 
 ------------------------------------------------------------------------
+# Descrições do .ini
 
-host = Endereço do servidor MySQL
-port = Porta do MySQL
-database = Nome do banco
-user = Usuário do banco
-password = Senha
+-   host = Endereço do servidor MySQL
+-   port = Porta do MySQL
+-   database = Nome do banco
+-   user = Usuário do banco
+-   password = Senha
 
 ------------------------------------------------------------------------
 
