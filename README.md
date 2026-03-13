@@ -30,6 +30,7 @@ O sistema permite:
     /src
        /controller
        /dao
+	   /infra
        /model
        /view
 
@@ -38,6 +39,7 @@ O sistema permite:
 
     /bin
        Citel.exe
+    /assets
 
     database.ini
 
@@ -48,7 +50,7 @@ O sistema permite:
 Para executar o sistema é necessário ter instalado:
 
 -   **MySQL Server**
--   **libmariadb.dll** ou **libmysql.dll** (32 bits)
+-   **libmariadb.dll** ou **libmysql.dll** (32 bits) (Já incluso na branch)
 -   Delphi (para compilação do projeto)
 
 ------------------------------------------------------------------------
@@ -101,13 +103,13 @@ Crie o arquivo na mesma pasta do executável com o seguinte conteúdo:
     user=root
     password=123456
 
-  Campo      Descrição
-  ---------- ----------------------------
-  host       Endereço do servidor MySQL
-  port       Porta do MySQL
-  database   Nome do banco
-  user       Usuário do banco
-  password   Senha
+------------------------------------------------------------------------
+
+host = Endereço do servidor MySQL
+port = Porta do MySQL
+database = Nome do banco
+user = Usuário do banco
+password = Senha
 
 ------------------------------------------------------------------------
 
@@ -121,9 +123,6 @@ ou
 
 2.  Execute diretamente:
 
-```{=html}
-<!-- -->
-```
     bin/Citel.exe
 
 ------------------------------------------------------------------------
@@ -164,9 +163,6 @@ Pedidos podem ser excluídos informando o **número do pedido**.
 -   Uso de **SQL direto para operações**
 -   Separação clara entre:
 
-```{=html}
-<!-- -->
-```
     View
     Controller
     DAO
