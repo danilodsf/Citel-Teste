@@ -70,7 +70,7 @@ CREATE TABLE pedido_produtos (
     id INT NOT NULL AUTO_INCREMENT,
     numero_pedido INT NOT NULL,
     codigo_produto INT NOT NULL,
-    quantidade NT NOT NULL,
+    quantidade INT NOT NULL,
     valor_unitario DECIMAL(10,2) NOT NULL,
     valor_total DECIMAL(12,2) NOT NULL,
 
