@@ -14,6 +14,10 @@ O sistema permite:
 
 ------------------------------------------------------------------------
 
+## Preview da aplicação
+
+![Preview do Sistema](assets/preview.png)
+
 # Tecnologias utilizadas
 
 -   Delphi
